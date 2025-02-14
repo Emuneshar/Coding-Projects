@@ -2,7 +2,7 @@ class Player{
   constructor(selector){
 	this.obj = document.querySelector(selector);
 	this.moveStrength = 0.2;
-    this.jumpStrength = 25;
+    this.jumpStrength = 5;
     this.impulse = null;
     this.moving = false;
     this.jumping = false;
