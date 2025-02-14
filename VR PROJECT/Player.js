@@ -2,12 +2,12 @@ class Player{
   constructor(selector){
 	this.obj = document.querySelector(selector);
 	this.moveStrength = 0.2;
-    this.jumpStrength = 5;
-    this.impulse = null;
-    this.moving = false;
-    this.jumping = false;
-    this.dx = 0; this.dy = 0; this.dz = 0;
-    this.pressed = [];
+  this.jumpStrength = 5;
+  this.impulse = null;
+  this.moving = false;
+  this.jumping = false;
+  this.dx = 0; this.dy = 0; this.dz = 0;
+  this.pressed = [];
 	this.obj.setAttribute("static-body");
 	
 	 window.addEventListener("keyup",(e)=>{
